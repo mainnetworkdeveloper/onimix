@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,700,600,300' rel='stylesheet' type='text/css'>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+
+    <link rel="stylesheet" href="css/font-awesome-5.5.0/css/all.css">
+
+    <link href="css/owl.theme.default.css" rel="stylesheet" />
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--<link rel="stylesheet/less" href="css/style.less" />
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>-->
+
+</head>
+<body class="login-body">
+
+    <!--Preload-->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <header>
+            <!-- Generate Crypto Value Dinamicaly -->
+
+            <div id="root">
+
+            </div>
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <div class="container-fluid top-menu">
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+                </div>
+                <div class="sidebar-header">
+                    <a href="index.html">
+                        <h3 class="logo"><img src="assets/images/logo.png" alt="logo" />Cryptoso</h3>
+                    </a>
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="box-list">
+                    <ul class="list-unstyled components">
+                        <li class="active">
+                            <a href="index.html"><i class="fas fa-home"></i></a>
+                        </li>
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="feed.html">News Feed</a>
+                        </li>
+                        <li>
+                            <a href="trade.html">Trade Markets</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="invest.html">Invest</a>
+                        </li>
+                        <li>
+                            <a href="contact.html"><i class="far fa-envelope"></i></a>
+                        </li>
+                        <li>
+                            <a href="help.html"><i class="fas fa-question-circle"></i></a>
+                        </li>
+                    </ul>
+
+                    <div class="box-txt-account">
+                        <a href="login.html">Sign in</a>
+
+                        <a href="register.html">Sign up</a>
+                    </div>
+                </div>
+
+                <div class="box-language">
+                    <p class="md-trigger box-lang" data-modal="modal-10"><span class="flag en-gb"></span><span class="txt-lg">UK</span></p>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content  -->
+
+        <div id="login" class="d-flex flex-row justify-content-center align-items-center">
+            <div class="box-login col-3 col-lg-3 align-self-center">
+                <div class="auth-bg">
+                    <span class="r"></span>
+                    <span class="r s"></span>
+                    <span class="r s"></span>
+                    <span class="r"></span>
+                </div>
+
+                <div class="content-login">
+                    <div class="title-form"><h3>Sign in to Trading Hall</h3></div>
+
+                    <form name="loginForm" method="POST" autocomplete="off" novalidate="">
+                        <div class="login-main-form">
+                            <input id="username" class="input-stl" autocomplete="off" name="username" placeholder="Username or Email" type="email" required="">
+
+                            <input id="password" class="input-stl" autocomplete="off" name="password" placeholder="Password" type="password" required="" maxlength="20">
+
+                            <div class="login-more row">
+                                <div id="login-remember-me" class="col">
+                                    <input type="checkbox" class="e-cb-input" id="CB" name="check" checked="checked">
+                                    <label class="e-cb-label e-link" for="CB">Stay Signed In</label>
+                                </div>
+                                <div class="login-more-forgot col">
+                                    <a class="e-link" href="#">Forgot password?</a>
+                                </div>
+                            </div>
+                            <div class="login-btn-wrapp">
+                                <button automation-id="login-sts-btn-sign-in" class="">Sign in</button>
+                            </div>
+                            <div class="social-wrapper-title">
+                                <span>Or Login With</span>
+                            </div>
+                            <div class="social-wrapper">
+                                <div class="social-login sign-up-button">
+                                    <button class="sign-up-button facebook-button"><span>Facebook</span></button>
+                                    <button class="sign-up-button google-button"><span>Google</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Dialog model language-->
+
+    <div class="md-modal md-effect-10 list-language" id="modal-10">
+        <div class="md-content">
+            <h3>Language</h3>
+            <div class="col">
+
+                <ul>
+                    <li>
+                        <span class="flag en-gb"></span>
+                        <span>English</span>
+                    </li>
+                    <li>
+                        <span class="flag es-es"></span>
+                        <span>Espanol</span>
+                    </li>
+                    <li>
+                        <span class="flag it-it"></span>
+                        <span>Italian</span>
+                    </li>
+                    <li>
+                        <span class="flag de-de"></span>
+                        <span>Deutsh</span>
+                    </li>
+                    <li>
+                        <span class="flag fr-fr"></span>
+                        <span>Francais</span>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col">
+
+                <ul>
+                    <li>
+                        <span class="flag pl-pl"></span>
+                        <span>Polski</span>
+                    </li>
+                    <li>
+                        <span class="flag da-dk"></span>
+                        <span>Dansk</span>
+                    </li>
+                    <li>
+                        <span class="flag nb-no"></span>
+                        <span>Norsk</span>
+                    </li>
+                    <li>
+                        <span class="flag sv-se"></span>
+                        <span>Sveska</span>
+                    </li>
+                    <li>
+                        <span class="flag pt-pt"></span>
+                        <span>Portugues</span>
+                    </li>
+                </ul>
+            </div>
+            <button class="md-close btn btn-more">Close me!</button>
+        </div>
+    </div>
+
+    <div class="md-overlay"></div><!-- the overlay element -->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <script src="js/owncarousel/owl.carousel.js"></script>
+
+    <!--Modal Language Form-->
+
+    <script src="js/modal/classie.js"></script>
+    <script src="js/modal/modalEffects.js"></script>
+
+    <script>
+        $(window).on('load', function () {
+            //$("#loading").delay(2000).fadeOut(500);
+            $("#loading").delay(1000).fadeOut(800);
+        })
+    </script>
+    <script src="js/api.js"></script>
+
+</body>
+</html>

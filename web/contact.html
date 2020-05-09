@@ -1,0 +1,720 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>Cryptoso - Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,700,600,300' rel='stylesheet' type='text/css'>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+
+    <link rel="stylesheet" href="css/font-awesome-5.5.0/css/all.css">
+
+    <link href="css/owl.theme.default.css" rel="stylesheet" />
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--<link rel="stylesheet/less" href="css/style.less" />
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>-->
+    <!--Google Maps-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeOh_Qw6A5V_xZ9LIrU3ipWoTL827SwUg&v=3.exp" type="text/javascript"></script>
+    <!--End Google Maps-->
+
+</head>
+<body>
+
+    <!--Preload-->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <header>
+            <!-- Generate Crypto Value Dinamicaly -->
+
+            <div id="root">
+
+            </div>
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <div class="container-fluid top-menu">
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+                </div>
+                <div class="sidebar-header">
+                    <a href="index.html">
+                        <h3 class="logo"><img src="assets/images/logo.png" alt="logo" />Cryptoso</h3>
+                    </a>
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <div class="box-list">
+                    <ul class="list-unstyled components">
+                        <li>
+                            <a href="index.html"><i class="fas fa-home"></i></a>
+                        </li>
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="feed.html">News Feed</a>
+                        </li>
+                        <li>
+                            <a href="trade.html">Trade Markets</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="invest.html">Invest</a>
+                        </li>
+                        <li class="active">
+                            <a href="contact.html"><i class="far fa-envelope"></i></a>
+                        </li>
+                        <li>
+                            <a href="help.html"><i class="fas fa-question-circle"></i></a>
+                        </li>
+                    </ul>
+
+                    <div class="box-txt-account">
+                        <a href="login.html">Sign in</a>
+
+                        <a href="register.html">Sign up</a>
+                    </div>
+                </div>
+
+                <div class="box-language">
+                    <p class="md-trigger box-lang" data-modal="modal-10"><span class="flag en-gb"></span><span class="txt-lg">UK</span></p>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Content  -->
+
+        <div id="content" class="contact">
+            <div class="contact-map">
+                <div class="contact-adress">
+                    <p>
+                        St. Princess Road 25/N2 London
+                    </p>
+                    <p>NR1 20NS, UK</p>
+                    <p><span>Phone: </span>+41 555 844 9585 </p>
+                    <p><span>Email: </span>info@support.com  </p>
+
+                    <div class="help-facebook">
+                        <img src="assets/images/social/facebook.svg" alt="facebook" />
+                    </div>
+                    <div class="help-linkedin">
+                        <img src="assets/images/social/linkedin.svg" alt="facebook" />
+                    </div>
+                    <div class="help-twitter">
+                        <img src="assets/images/social/twitter.svg" alt="twitter" />
+                    </div>
+                </div>
+                <div class="google-maps">
+                    <!--Google Maps-->
+                    <div id="map_container">
+                        <div id="map_canvas">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container box-content-info">
+                <div class="row contact-title">
+                    <div class="col-md-12 box-header-clients">
+                        <h3 class="title">Leave us a <span>Message</span></h3>
+                        <div class="line-centered-circolar"></div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati!
+                            <br />
+                            ipsum dolor sit Rem autem voluptatem obcaecati
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form id="contact-form" role="form" method="POST" action="#">
+                            <div class="row">
+                                <div class="form-group col-lg-6">
+                                    <label for="input1">Name *</label>
+                                    <input type="text" name="contact_name" placeholder="e.g. Jhon Smith" class="form-control" id="name">
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label for="input1">Company Name</label>
+                                    <input type="text" name="contact_name" placeholder="e.g. Angu Studio" class="form-control" id="company">
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="form-group col-lg-6">
+                                    <label for="input2">Email Address *</label>
+                                    <input type="email" name="contact_email" placeholder="e.g. mail@example.com" class="form-control" id="email">
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label for="input3">Phone Number</label>
+                                    <input type="text" name="contact_phone" placeholder="+004 123 23 456" class="form-control" id="phone">
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="form-group col-lg-12">
+                                    <label for="input4">Message</label>
+                                    <textarea name="contact_message" class="form-control" rows="6" cols="10" id="message"></textarea>
+                                </div>
+                                <div class="form-group btn-send col-lg-12">
+                                    <input type="hidden" name="save" value="contact">
+                                    <button type="submit" class="btn btn-more bt-contact-submit">Send Message</button>
+                                    <p class="success">Your message has been sent successfully.</p>
+
+                                    <p class="error">E-mail must be valid or message must be longer than 20 characters.</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row box-exchange">
+                    <div class="col-md-4 box-desc-help">
+                        <h3>Getting Started</h3>
+                        <p>
+                            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which
+                            I enjoy with my whole heart....
+                        </p>
+                        <a href="#" class="btn btn-more">Show More</a>
+                    </div>
+                    <div class="col-md-4 box-desc-help">
+                        <h3>Have a problem?</h3>
+                        <p>
+                            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which
+                            I enjoy with my whole heart....
+                        </p>
+                        <a href="#" class="btn btn-more">Show More</a>
+                    </div>
+                    <div class="col-md-4 box-desc-help">
+                        <h3>Suggest a feature</h3>
+                        <p>
+                            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which
+                            I enjoy with my whole heart....
+                        </p>
+                        <a href="#" class="btn btn-more">Show More</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <section id="infosite">
+                <div class="back-img"></div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 p-0">
+                            <div class="box-yellow">
+                                <h3 class="title">Any Question ?</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati!</p>
+                                <button class="btn btn-more" type="button">Suggestions</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="back-img"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <h3>Cryptoso</h3>
+                            <p>
+                                Criptoso ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore agna aliquam erat .
+                                wisi enim ad minim veniam, quis tation. sit amet, consec tetuer. ipsum dolor sit amet, consectetuer adipiscing.ipsum dolor sit .
+                            </p>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3>Recent Post</h3>
+
+                            <div class="footer-post">
+                                <span>14/06/2016</span>
+                                <h4>Crisis Bitcoi Down</h4>
+                                <p><i class="fas fa-user"></i> by Admin <i class="fas fa-comments"></i>28</p>
+                            </div>
+
+                            <div class="footer-post">
+                                <span>14/06/2016</span>
+                                <h4>Why Buy Crypto</h4>
+                                <p><i class="fas fa-user"></i> by Admin <i class="fas fa-comments"></i>28</p>
+                            </div>
+
+                            <div class="footer-post">
+                                <span>14/06/2016</span>
+                                <h4>Crypto New Entry</h4>
+                                <p><i class="fas fa-user"></i> by Admin <i class="fas fa-comments"></i>28</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 links">
+                            <h3>Useful Links</h3>
+                            <ul>
+                                <li>About</li>
+                                <li>FAQ</li>
+                                <li>Our Team</li>
+                                <li>Services</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3>Newsletter</h3>
+                            <div class="newsletter-bx">
+                                <form role="search" method="post">
+                                    <div class="input-group">
+                                        <input name="news-letter" class="form-control" placeholder="ENTER YOUR EMAIL" type="text">
+                                        <span class="input-group-btn">
+                                            <button type="submit" class="site-button"><i class="far fa-paper-plane"></i></button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="social">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-box-info">
+                        <div class="col-md-3 block-info">
+                            <div class="box-info-footer">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="col-md-8 p-0">
+                                        <h3>Address</h3>
+                                        <p>No.123 Chalingt Gates, New York</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 block-info">
+                            <div class="box-info-footer">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <div class="col-md-8 p-0">
+                                        <h3>Phone</h3>
+                                        <p>+41 555 844 9585 <br />+41 555 844 9585</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 block-info">
+                            <div class="box-info-footer">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <i class="fas fa-fax"></i>
+                                    </div>
+                                    <div class="col-md-8 p-0">
+                                        <h3>Fax</h3>
+                                        <p>(123) 123-4567 <br />(123) 123-4567 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 block-info">
+                            <div class="box-info-footer">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <i class="fas fa-at"></i>
+                                    </div>
+                                    <div class="col-md-8 p-0">
+                                        <h3>Email</h3>
+                                        <p>info@support.com <br /> info@support.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-copyright">
+                    <p class="copy">
+                        © 2018 CRYPTOSO - ALL RIGHTS RESERVED
+                    </p>
+                </div>
+            </footer>
+
+        </div><!-- end content -->
+    </div>
+
+    <!--Button Slide Top-->
+    <div id="back-to-top">
+        <a class="top arrow" href="#top">
+            <i class="fa fa-angle-up"></i>
+            <span>TOP</span>
+        </a>
+    </div>
+
+    <!-- Dialog model language-->
+
+    <div class="md-modal md-effect-10 list-language" id="modal-10">
+        <div class="md-content">
+            <h3>Language</h3>
+            <div class="col">
+
+                <ul>
+                    <li>
+                        <span class="flag en-gb"></span>
+                        <span>English</span>
+                    </li>
+                    <li>
+                        <span class="flag es-es"></span>
+                        <span>Espanol</span>
+                    </li>
+                    <li>
+                        <span class="flag it-it"></span>
+                        <span>Italian</span>
+                    </li>
+                    <li>
+                        <span class="flag de-de"></span>
+                        <span>Deutsh</span>
+                    </li>
+                    <li>
+                        <span class="flag fr-fr"></span>
+                        <span>Francais</span>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col">
+
+                <ul>
+                    <li>
+                        <span class="flag pl-pl"></span>
+                        <span>Polski</span>
+                    </li>
+                    <li>
+                        <span class="flag da-dk"></span>
+                        <span>Dansk</span>
+                    </li>
+                    <li>
+                        <span class="flag nb-no"></span>
+                        <span>Norsk</span>
+                    </li>
+                    <li>
+                        <span class="flag sv-se"></span>
+                        <span>Sveska</span>
+                    </li>
+                    <li>
+                        <span class="flag pt-pt"></span>
+                        <span>Portugues</span>
+                    </li>
+                </ul>
+            </div>
+            <button class="md-close btn btn-more">Close me!</button>
+        </div>
+    </div>
+
+    <div class="md-overlay"></div><!-- the overlay element -->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <script src="js/Chart.min.js"></script>
+
+    <script src="js/owncarousel/owl.carousel.js"></script>
+    <!-- Popper.JS -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!--Modal Language Form-->
+
+    <script src="js/modal/classie.js"></script>
+    <script src="js/modal/modalEffects.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/api.js"></script>
+
+    <script>
+        $(document).ready(function ($) {
+            "use strict";
+
+            $(".contact-adress").addClass("active");
+
+            $(".contact-adress svg").on("click", function () {
+                $(".contact-adress").removeClass("active");
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        /********************************************
+        GOOGLE MAPS
+        ********************************************/
+
+        // using a DROP animation. Clicking on the marker will toggle
+        // the animation between a BOUNCE animation and no animation.
+        $(document).ready(function ($) {
+            "use strict";
+            var mapPosition = new google.maps.LatLng(-33.869931, 151.210824);
+            var markerPosition = new google.maps.LatLng(-33.869931, 151.210824);
+            //var image = 'assets/images/marker.png';
+            var image = {
+                url: "assets/images/marker.png", // url
+                scaledSize: new google.maps.Size(70, 91), // size
+            };
+            var marker;
+            var map;
+
+            initialize();
+
+            function initialize() {
+                var styleArray = [
+                    {
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#212121"
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.icon",
+                        "stylers": [
+                            {
+                                "visibility": "off"
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#757575"
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.text.stroke",
+                        "stylers": [
+                            {
+                                "color": "#212121"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#757575"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative.country",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#9e9e9e"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative.land_parcel",
+                        "stylers": [
+                            {
+                                "visibility": "off"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative.locality",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#bdbdbd"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#757575"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi.park",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#181818"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi.park",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#616161"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi.park",
+                        "elementType": "labels.text.stroke",
+                        "stylers": [
+                            {
+                                "color": "#1b1b1b"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road",
+                        "elementType": "geometry.fill",
+                        "stylers": [
+                            {
+                                "color": "#2c2c2c"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#8a8a8a"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#373737"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#3c3c3c"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway.controlled_access",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#4e4e4e"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.local",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#616161"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "transit",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#757575"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "water",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "water",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#3d3d3d"
+                            }
+                        ]
+                    }
+                ];
+                var mapOptions = {
+                    zoom: 12,
+                    styles: styleArray,
+                    center: mapPosition
+                };
+
+                map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+
+                marker = new google.maps.Marker({
+                    map: map,
+                    draggable: true,
+
+                    animation: google.maps.Animation.DROP,
+                    icon: image,
+                    position: markerPosition,
+                    scaledSize: new google.maps.Size(50, 50), // size
+                });
+                google.maps.event.addListener(marker, 'click', toggleBounce);
+            }
+
+            function toggleBounce() {
+
+                if (marker.getAnimation() != null) {
+                    marker.setAnimation(null);
+                } else {
+                    marker.setAnimation(google.maps.Animation.BOUNCE);
+                }
+            }
+
+            google.maps.event.addDomListener(window, 'load', initialize);
+
+        });
+    </script>
+
+</body>
+</html>
